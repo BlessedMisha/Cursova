@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NFT Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atropos.css" />
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div class="overlay" onclick="toggleClasses()"></div>
+      <header class="header">
+        <section class="header_inner">
+          <nav class="header_logo hvr-shrink">
+            <a href="index.html" class="header_logo_container">
+              <img
+                src="images/storefront.svg"
+                alt="NFT Marketplace"
+                class="header_storefrontimg"
+              />
+              <img
+                src="images/marketplace.svg"
+                alt="NFT Marketplace"
+                class="header_marketplaceimg"
+              />
+            </a>
+          </nav>
+          <a class="header_menubtn" onclick="toggleClasses()">
+            <img
+              src="images/burgermenu.svg"
+              alt="Menu"
+              class="header_burgermenu"
+            />
+          </a>
+          <nav class="header_menu">
+            <a href="marketplace.html" class="header_menuitem hvr-shrink">
+              <img src="images/market.svg" alt="" />
+              <p class="base-sans">Marketplace</p></a
+            >
+            <a href="topcreators.html" class="header_menuitem hvr-shrink">
+              <img src="images/rank.svg" alt="" />
+              <p class="base-sans">Rankings</p></a
+            >
+            <a href="connectwallet.html" class="header_menuitem hvr-shrink"
+              ><img src="images/wallet.svg" alt="" />
+              <p class="base-sans">Connect a wallet</p></a
+            >
+            <a
+              href="createaccount.html"
+              class="header_menuitem_button btn hvr-shrink"
+            >
+              <img src="images/user.svg" alt="" />
+              <p class="base-sans">Sign Up</p></a
+            >
+            <div class="header_join">
+              <p class="base-sans">Join our community</p>
+              <div class="footer_socialpics">
+                <a href="https://discord.com/"
+                  ><img src="images/discord.svg" alt=""
+                /></a>
+                <a href="https://youtube.com/"
+                  ><img src="images/youtube.svg" alt=""
+                /></a>
+                <a href="https://twitter.com/"
+                  ><img src="images/twitter.svg" alt=""
+                /></a>
+                <a href="https://instagram.com/"
+                  ><img src="images/instagram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </header>
+
+      <section class="placeholderimg"></section>
+      <section class="nftartistinfo container">
+        <div class="nftartistinfo_inner">
+          <article class="nftartistinfo_headline">
+            <h4 class="sans">The Orbitians</h4>
+            <p style="color: #858584" class="base-sans">
+              Minted on Sep 30, 2022
+            </p>
+          </article>
+          <div class="nftartistinfo_timer">
+            <p class="caption-mono">Auction ends in:</p>
+            <div class="nftartistinfo_timer_countdown">
+              <div class="nftartistinfo_timer_item">
+                <h3 class="nftartistinfo_hourtime mono">59</h3>
+                <p class="nftartistinfo_hourtext caption-mono">Hours</p>
+              </div>
+              <h3 class="nftartistinfo_timer_divider mono">:</h3>
+              <div class="nftartistinfo_timer_item">
+                <h3 class="nftartistinfo_mintime mono">59</h3>
+                <p class="nftartistinfo_mintext caption-mono">Minutes</p>
+              </div>
+              <h3 class="nftartistinfo_timer_divider mono">:</h3>
+              <div class="nftartistinfo_timer_item">
+                <h3 class="nftartistinfo_sectime mono">59</h3>
+                <p class="nftartistinfo_sectext caption-mono">Seconds</p>
+              </div>
+            </div>
+            <a href="#" class="nftartistinfo_button btn hvr-shrink"
+              >Place Bid</a
+            >
+          </div>
+
+          <div class="nftartistinfo_artistcard">
+            <p class="base-mono">Created By</p>
+            <div class="nftartistinfo_card">
+              <img src="images/nftpage/artist-avatar.svg" alt="" />
+              <p class="base-sans">Orbitian</p>
+            </div>
+          </div>
+          <div class="nftartistinfo_description">
+            <p class="base-mono">Description</p>
+            <p class="base-sans">
+              The Orbitians is a collection of 10,000 unique NFTs on the
+              Ethereum blockchain,<br /><br />
+
+              There are all sorts of beings in the NFT Universe. The most
+              advanced and friendly of the bunch are Orbitians.
+
+              <br /><br />They live in a metal space machines, high up in the
+              sky and only have one foot on Earth. These Orbitians are a
+              peaceful race, but they have been at war with a group of invaders
+              for many generations. The invaders are called Upside-Downs,
+              because of their inverted bodies that live on the ground, yet do
+              not know any other way to be. Upside-Downs believe that they will
+              be able to win this war if they could only get an eye into
+              Orbitian territory, so they've taken to make human beings their
+              target.
+            </p>
+          </div>
+          <div class="nftartistinfo_details">
+            <p class="base-mono">Details</p>
+            <a class="nftartistinfo_weblink">
+              <img src="images/globe.svg" alt="" />
+              <p class="base-sans">View on Etherscan</p>
+            </a>
+            <a class="nftartistinfo_weblink">
+              <img src="images/globe.svg" alt="" />
+              <p class="base-sans">View on Original</p>
+            </a>
+          </div>
+          <div class="nftartistinfo_tag">
+            <p class="base-mono">Tags</p>
+            <div class="nftartistinfo_tags">
+              <a
+                href="marketplace.html"
+                class="nftartistinfo_tags_item hvr-shrink"
+                >Animation</a
+              >
+              <a
+                href="marketplace.html"
+                class="nftartistinfo_tags_item hvr-shrink"
+                >Illustration</a
+              >
+              <a
+                href="marketplace.html"
+                class="nftartistinfo_tags_item hvr-shrink"
+                >Moon</a
+              >
+              <a
+                href="marketplace.html"
+                class="nftartistinfo_tags_item hvr-shrink"
+                >Moon</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="morenft container">
+        <div class="morenft_inner">
+          <h4 class="sans">More From This Artist</h4>
+          <a href="artistpage.html" class="morenft_button btn hvr-shrink">
+            <img src="images/nftpage/arrow.svg" alt="" />
+            Go to Artist Page
+          </a>
+          <section class="morenft_cardrow"></section>
+        </div>
+      </section>
+      <div class="scrollup">
+        <svg class="scrollup_svg" viewBox="-2 -2 52 52">
+          <path
+            class="scrollup_path"
+            d="M24,0 A24,24 0 0,1 48,24 A24,24 0 0,1 24,48 A24,24 0 0,1 0,24 A24,24 0 0,1 24,0 Z"
+          />
+        </svg>
+      </div>
+      <footer class="footer container">
+        <div class="footer_inner">
+          <section class="footer_socials">
+            <a href="index.html" class="header_logo_container hvr-shrink">
+              <img
+                src="images/storefront.svg"
+                alt="storefront"
+                class="header_storefrontimg"
+              />
+              <img
+                src="images/marketplace.svg"
+                alt="marketplace"
+                class="header_marketplaceimg"
+              />
+            </a>
+            <p class="base-sans">
+              NFT marketplace UI created with Anima for Figma.
+            </p>
+            <p class="base-sans">Join our community</p>
+            <div class="footer_socialpics">
+              <a href="https://discord.com/" class="hvr-shrink"
+                ><img src="images/discord.svg" alt=""
+              /></a>
+              <a href="https://youtube.com/" class="hvr-shrink"
+                ><img src="images/youtube.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/" class="hvr-shrink"
+                ><img src="images/twitter.svg" alt=""
+              /></a>
+              <a href="https://instagram.com/" class="hvr-shrink"
+                ><img src="images/instagram.svg" alt=""
+              /></a>
+            </div>
+          </section>
+          <section class="footer_explore">
+            <h5 class="mono">Explore</h5>
+            <a href="marketplace.html" class="hvr-shrink"
+              ><p class="base-sans">Marketplace</p></a
+            >
+            <a href="topcreators.html" class="hvr-shrink"
+              ><p class="base-sans">Rankings</p></a
+            >
+            <a href="connectwallet.html" class="hvr-shrink"
+              ><p class="base-sans">Connect a wallet</p></a
+            >
+          </section>
+
+          <section class="footer_form">
+            <div class="footer_text">
+              <h4 class="sans">Join our weekly digest</h4>
+              <p class="base-sans">
+                Get exclusive promotions & updates straight to your inbox.
+              </p>
+            </div>
+            <input
+              class="footer_input"
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+            <a href="#" class="footer_button btn hvr-shrink"
+              ><img src="images/rocket.png" alt="" />Subscribe</a
+            >
+          </section>
+        </div>
+        <p style="color: #cccccc" class="caption-sans">
+          Ⓒ NFT Market. Use this template freely.
+        </p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/nftpage.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/atropos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
